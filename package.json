@@ -1,14 +1,12 @@
 {
   "name": "tyescript_grunt_complete",
   "version": "0.0.1",
-  "description": "Meh",
+  "description": "grunt typescript complete",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "~0.6.1",
     "grunt-typescript": "~0.3.8",
-    "load-grunt-tasks": "~0.4.0",
     "typescript": "^1.0.1"
   },
   "devDependencies": {},

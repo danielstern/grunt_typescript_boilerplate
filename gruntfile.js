@@ -11,19 +11,11 @@
 module.exports = function(grunt) {
 
     // Load grunt tasks automatically
-    require('load-grunt-tasks')(grunt);
+    // require('grunt-typescript')(grunt);
+    grunt.loadNpmTasks('grunt-typescript');
 
     // Define the configuration for all the tasks
-    grunt.initConfig({
-
-        // Watches files for changes and runs tasks based on the changed files
-        watch: {
-            typescript: {
-                files: ['**/{,*/}*.ts'],
-                tasks: ['typescript']
-            }
-        },
-       
+    grunt.initConfig({     
 
         // typescript yeah!
         typescript: {
