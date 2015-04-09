@@ -20,12 +20,12 @@ module.exports = function(grunt) {
         // typescript yeah!
         typescript: {
             base: {
-                src: ['app/typescript/**/{,*/}*.ts'],
+                src: ['scripts/**/{,*/}*.ts'],
                 dest: '.tmp/scripts/',
                 options: {
                     module: 'amd', //or commonjs
                     target: 'es5', //or es3
-                    basePath: 'app/typescript',
+                    basePath: '',
                     sourceMap: true,
                     declaration: true
                 }
